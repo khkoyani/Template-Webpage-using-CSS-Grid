@@ -17,7 +17,22 @@ html {
 		/* usually keep it as 1.4 */
 }
 
-body {
+.wrapper {
+	display: grid;
+	grid-gap: 20px;
+	
+}
 
+img {
+	max-width: 100%;
+	/* makes sure that images stay within their parent containers */
+}
 
+.btn {
+	background: var(--dark);
+	color: var(--light);
+	padding: .6rem 1.3rem;
+		/* 1rem = 16px * remunit*/
+	text-decoration: none;
+	border: 0;
 }
