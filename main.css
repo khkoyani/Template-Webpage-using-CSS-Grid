@@ -14,34 +14,37 @@ html {
 	background: #ccc;
 	margin: 30px, 50px;
 	line-height: 1.4;
-	font-size: 1.3vw;
+	font-size: 16px;
+	/* font-size: 1.3vw; */
 		/* usually keep it as 1.4 */
 }
 
+h1 {
+	font-size: 4rem;
+	margin-bottom: 0;
+	/* makes it so there is less space between heading and start of paragraph */
+}
+
+h4 {
+	margin-bottom: 0;
+}
 .wrapper {
 	display: grid;
 	grid-gap: 20px;
 	grid-template-columns: 1fr;	
 }
 
-h1 {
-	font-size: 3em;
-}
-h4 {
-	font-size: 1.5em;
-}
 
 
 img {
-	max-width: 90%;
-	height: auto;
+	max-width: 100%;
 	/* makes sure that images stay within their parent containers */
 }
 
 .btn {
 	background: var(--dark);
 	color: var(--light);
-	padding: .6vw 1.3vw;
+	padding: 0.6rem 1.3rem;
 		/* 1rem = 16px * remunit*/
 	text-decoration: none;
 	border: 0;
@@ -54,7 +57,7 @@ img {
 	display: grid;
 	grid-gap: 20px;
 	grid-template-columns: repeat(4, 1fr);
-	padding: .8em;
+	padding: 0;
 	list-style: none;
 	text-decoration: none;
 }
@@ -78,11 +81,9 @@ img {
 
 /* section1 */
 .section1 {
-	box-sizing:  border-box
-	height: auto;
 	display: grid;
-	grid-gap: 3%;
-	padding: 0rem .8rem;
+	grid-gap: 20px;
+/* 	padding: 0rem .8rem; */
 	grid-template-areas:
 	'showcase showcase top-box-a'
 	'showcase showcase top-box-b'
@@ -92,69 +93,120 @@ img {
 
 /* assigning showcase class to a grid area*/
 .showcase {
-	text-align: center;
 	grid-area: showcase;
+	min-height: 400px;
 	background:  url(https://images.pexels.com/photos/2115257/pexels-photo-2115257.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-	color: white;
-	background-size: 100%;
-	background-repeat: no-repeat;
+	background-size: cover%;
 	background-position: center;
-	padding: 5vw 5vw;
-	box-sizing: border-box;
+	color: white;
+	padding: 3rem;
 		/* makes sure the entire picture is scaled to fit the container */
 		/* background-position: center; */
 
 		/* auto = displays at original size */
+	display: flex;
+	/* adds a flex box for the 3 elements inside showcase. defaul is horizontal so creates 3 columns */
+	flex-direction: column;
+	/* changes it to create 3 rows */
+	align-items: start;
+	justify-content: center;
+	box-shadow: var(--shadow);
 }
 
+.showcase p {
+	font-size: 1.3rem;
+	margin-top: 0;
+}
 .top-box-a {
-	text-align: center;
-	min-width: 20%;
 	grid-area: top-box-a;
 	background: var(--primary);
-	padding-left: 25%;
-	padding-right: 25%;
-	padding-bottom: 15%;
-	box-sizing:  border-box;
 
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	padding: .8rem;
+
+	box-shadow: var(--shadow);
+}
+
+.top-box-a .price {
+	font-size: 2.5rem;
 }
 
 .top-box-b {
-	text-align: center;
 	grid-area: top-box-b;
 	background: var(--primary);
 
-	box-sizing:  border-box;
-	padding-left: 25%;
-	padding-right: 25%;
-	padding-bottom: 15%;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	padding: .8rem;
+
+	box-shadow: var(--shadow);
 }
 
-.section2 {
+.top-box-b .price {
+	font-size: 2.5rem;
+}
+
+/* .section2 {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 20px;
 	padding: 0rem .8rem;
+} */
+/* above css will always ahve 4 columns even on small screen */
+
+.section2 {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
+/* max of 1fr - will always get bigger with screen width because its a fractional */
+/* min of 200px - will add a new row if forcing size to less than 200 */
+/* so wont have write a seperate mediaqueries */
+
 
 .section2 .row-boxes {
 	background: var(--primary);
-	padding: 15px;
+	padding: 1.5rem 2rem;
 	text-align: center;
+	box-shadow: var(--shadow);
 }
 
 .section3 {
-	display: grid;
 	background: var(--primary);
+	box-shadow: var(--shadow);
+	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 20px;
-	font-size: 1.7vw;
-	margin: 0rem .8rem;
+	padding: 2rem;
+
 }
 
 .section4 {
 	display: grid;
-	background: var(--primary);
 	grid-gap: 20px;
-	grid-template-columns: 1fr;
+	/* grid-template-columns: 1fr; */
+	}
+.section4 h3 {
+	text-align: center;
+	font-size: 3rem;
+	margin-bottom: 0;
+}
+
+.section4 .image-list{
+	display: grid;
+	grid-gap: 20px;
+	/* grid-template-columns: 1fr; */
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.section4 img {
+	width: 100%;
+}
+
+.section5-footer {
+	background: var(--dark);
+	text-align: center;
+	color: var(--light);
 }
