@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"gri",
+				"grid-template-columns"
+			],
+			[
+				"grid",
+				"grid-template-columns"
+			],
+			[
+				"top",
+				"top-box-a"
+			],
+			[
+				"gridt",
+				"grid-template-areas"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"just",
+				"justify-self"
+			],
+			[
 				"max",
 				"max-width"
 			],
@@ -187,28 +211,17 @@
 			"file": "main.css",
 			"settings":
 			{
-				"buffer_size": 667,
+				"buffer_size": 2801,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": ".git/COMMIT_EDITMSG",
-			"settings":
-			{
-				"buffer_size": 401,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<!doctype html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\">\n        <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\n        <title>CSS GRID</title>\n        <meta name=\"description\" content=\"\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n        <link rel=\"manifest\" href=\"site.webmanifest\">\n        <link rel=\"apple-touch-icon\" href=\"icon.png\">\n        <!-- Place favicon.ico in the root directory -->\n\n        <!-- <link rel=\"stylesheet\" href=\"css/normalize.css\"> -->\n        <link rel=\"stylesheet\" href=\"main.css\">\n    </head>\n    <body>\n        <!--[if lte IE 9]>\n            <p class=\"browserupgrade\">You are using an <strong>outdated</strong> browser. Please <a href=\"https://browsehappy.com/\">upgrade your browser</a> to improve your experience and security.</p>\n        <![endif]-->\n\n\t\t<div class=\"wrapper\"></div>\n\t\t\t<nav class=\"main-nav\">\n\t\t\t\t<ul>\n\t\t\t\t\t<li><a href=\"#\">Home</a></li>\n\t\t\t\t\t<li><a href=\"#\">About</a></li>\n\t\t\t\t\t<li><a href=\"#\">Services</a></li>\n\t\t\t\t\t<li><a href=\"#\">Contact</a></li>\n\t\t\t\t</ul>\n\t\t\t</nav>\n\t\t\t<section class=\"section1\">\n\t\t\t\t<header class=\"showcase\">\n\t\t\t\t\t<h1>Your Web Presence</h1>\n\t\t\t\t\t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta omnis praesentium quo eum, optio doloremque, enim ab harum quis vel.</p>\n\t\t\t\t\t<a href=\"#\" class='btn'>Read More</a>\n\t\t\t\t</header>\n\t\t\t\t<div class=\"top-box top-box-a\">\n\t\t\t\t\t<h4>Membership</h4>\n\t\t\t\t\t<p class=\"price\">$1.99/month</p>\n\t\t\t\t\t<a href=\"#\" class='btn'>Buy Now</a></div>\n\t\t\t\t<div class=\"top-box top-box-a\">\n\t\t\t\t\t<h4>Membership</h4>\n\t\t\t\t\t<p class=\"price\">$1.99/month</p>\n\t\t\t\t\t<a href=\"#\" class='btn'>Buy Now</a></div>\n\t\t\t</section>\n\n\t\t\t<section class=\"section2\">\n\t\t\t\t<div class=\"row-boxes\">\n\t\t\t\t\t<i class=\"fas fa-project-diagram fa-4x\"></i>\n\t\t\t\t\t<h3>Analytics</h3>\n\t\t\t\t\t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, mollitia!</p>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"row-boxes\">\n\t\t\t\t\t<i class=\"fas fa-globe fa-4x\"></i>\n\t\t\t\t\t<h3>Marketing</h3>\n\t\t\t\t\t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, mollitia!</p>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"row-boxes\">\n\t\t\t\t\t<i class=\"fas fa-cog fa-4x\"></i>\n\t\t\t\t\t<h3>Development</h3>\n\t\t\t\t\t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, mollitia!</p>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"row-boxes\">\n\t\t\t\t\t<i class=\"fas fa-users fa-4x\"></i>\n\t\t\t\t\t<h3>Support</h3>\n\t\t\t\t\t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, mollitia!</p>\n\t\t\t\t</div>\n\t\t\t</section>\n\t\t\t<section class=\"section3\">\n\t\t\t\t<div class=\"section3-image\">\n\t\t\t\t\t<img src=\"img/pic2.jpg\" alt=\"\" ></div>\n\t\t\t\t<div class=\"section3-textpanel\">\n\t\t\t\t\t<h3>Your Business On The Web</h3>\n\t\t\t\t\t<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus ad, ipsa natus cum odit fugit ullam aspernatur dignissimos amet quisquam nobis maiores ipsum consectetur asperiores veritatis rerum mollitia saepe repudiandae?</p>\n\t\t\t\t\t<a href=\"\" class=\"btn\"> Read More </a>\n\t\t\t\t</div>\n\t\t\t</section>\n\t\t\t<section class=\"section4-examples\">\n\t\t\t\t<img src=\"https://source.unsplash.com/random/200x200\" alt=\"\" class=\"section4-image\">\n\t\t\t\t<img src=\"https://source.unsplash.com/random/201x200\" alt=\"\" class=\"section4-image\">\n\t\t\t\t<img src=\"https://source.unsplash.com/random/200x201\" alt=\"\" class=\"section4-image\">\n\t\t\t\t<img src=\"https://source.unsplash.com/random/202x200\" alt=\"\" class=\"section4-image\">\n\t\t\t\t<img src=\"https://source.unsplash.com/random/200x202\" alt=\"\" class=\"section4-image\">\n\t\t\t\t<img src=\"https://source.unsplash.com/random/203x200\" alt=\"\" class=\"section4-image\">\n\t\t\t\t<img src=\"https://source.unsplash.com/random/200x203\" alt=\"\" class=\"section4-image\">\n\t\t\t\t<img src=\"https://source.unsplash.com/random/204x200\" alt=\"\" class=\"section4-image\">\n\t\t\t\t<img src=\"https://source.unsplash.com/random/204x204\" alt=\"\" class=\"section4-image\">\n\t\t\t</section>\n\n\t\t\t<section class=\"sectioin5-footer\">\n\t\t\t\t<p>Grid 2018</p>\n\t\t\t</section>\n\n\n\n\t\t<script src=\"https://kit.fontawesome.com/a94fc007d9.js\"></script>\n        <script src=\"js/vendor/modernizr-3.5.0.min.js\"></script>\n        <script src=\"https://code.jquery.com/jquery-3.2.1.min.js\" integrity=\"sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=\" crossorigin=\"anonymous\"></script>\n        <script>window.jQuery || document.write('<script src=\"js/vendor/jquery-3.2.1.min.js\"><\\/script>')</script>\n        <script src=\"js/plugins.js\"></script>\n        <script src=\"js/main.js\"></script>\n\n    </body>\n</html>",
 			"file": "index.html",
-			"file_size": 4965,
-			"file_write_time": 132090022794605150,
 			"settings":
 			{
-				"buffer_size": 4451,
+				"buffer_size": 4434,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -335,6 +348,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Karan/django_projects/css grid/Learning grid/Project1/.git/COMMIT_EDITMSG",
 		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
 		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
 		"/C/Users/Karan/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
@@ -442,7 +456,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -451,15 +465,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 667,
+						"buffer_size": 2801,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								423,
-								423
+								2801,
+								2801
 							]
 						],
 						"settings":
@@ -470,35 +484,7 @@
 							"syntax": "Packages/CSS3/CSS3.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": ".git/COMMIT_EDITMSG",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 401,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								37,
-								37
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Git Formats/Git Commit.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2565.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -511,20 +497,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4451,
+						"buffer_size": 4434,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1120,
-								1120
+								1338,
+								1338
 							]
 						],
 						"settings":
@@ -538,10 +524,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 741.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -575,7 +561,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.505138645246,
 			1.0
 		],
 		"rows":
