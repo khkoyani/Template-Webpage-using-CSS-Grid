@@ -4,11 +4,35 @@
 		"selected_items":
 		[
 			[
-				"gri",
-				"grid-template-columns"
+				"va",
+				"var()"
+			],
+			[
+				"med",
+				"@media"
 			],
 			[
 				"grid",
+				"grid-template-columns"
+			],
+			[
+				"girdte",
+				"grid-template-columns"
+			],
+			[
+				"justi",
+				"justify-items"
+			],
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"gridtemp",
+				"grid-template-columns"
+			],
+			[
+				"gri",
 				"grid-template-columns"
 			],
 			[
@@ -211,7 +235,7 @@
 			"file": "main.css",
 			"settings":
 			{
-				"buffer_size": 2801,
+				"buffer_size": 5194,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -220,9 +244,17 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4434,
+				"buffer_size": 4564,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css_grid2.sublime-project",
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -425,7 +457,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -465,15 +497,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2801,
+						"buffer_size": 5194,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2801,
-								2801
+								3429,
+								3429
 							]
 						],
 						"settings":
@@ -484,7 +516,7 @@
 							"syntax": "Packages/CSS3/CSS3.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2565.0,
+						"translation.y": 3007.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -502,15 +534,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4434,
+						"buffer_size": 4564,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1338,
-								1338
+								1751,
+								1751
 							]
 						],
 						"settings":
@@ -524,10 +556,38 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 741.0,
+						"translation.y": 456.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css_grid2.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

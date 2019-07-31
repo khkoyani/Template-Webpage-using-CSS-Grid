@@ -160,11 +160,12 @@ img {
 .section2 {
 	display: grid;
 	grid-gap: 20px;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
-/* max of 1fr - will always get bigger with screen width because its a fractional */
+	/* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+	/* max of 1fr - will always get bigger with screen width because its a fractional */
 /* min of 200px - will add a new row if forcing size to less than 200 */
 /* so wont have write a seperate mediaqueries */
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
 
 .section2 .row-boxes {
@@ -174,10 +175,17 @@ img {
 	box-shadow: var(--shadow);
 }
 
+.line{
+	display: block;
+	height: 4px;
+	width: auto;
+	background: var(--dark);
+}
 .section3 {
 	background: var(--primary);
 	box-shadow: var(--shadow);
 	display: grid;
+	/* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 20px;
 	padding: 2rem;
@@ -210,3 +218,63 @@ img {
 	text-align: center;
 	color: var(--light);
 }
+
+/* Media Queries */
+@media (max-width: 700px) {
+	/* everything will be for width of 700 or less */
+
+	/* changes formatting of template area */
+	.section1 {
+		grid-template-areas: 
+			'showcase showcase'
+			'top-box-a top-box-b';
+	}
+	/* resizes heading */
+	h1 {
+		font-size: 2.5rem;
+	}
+	/* changes navigation */
+	.main-nav ul {
+		grid-template-columns: 1fr;
+		grid-gap: 10px;
+	}
+	.section2 {
+		grid-template-columns: 1fr 1fr;
+	}
+	.section3 {
+		grid-template-columns: 1fr;
+		grid-gap: 20px;
+		padding: 2rem;
+	}
+
+	.btn {
+		/* changes the button to a full line */
+		display: block;
+		text-align: center;
+		padding: 0.6rem 1.3rem;
+			/* 1rem = 16px * remunit*/
+		text-decoration: none;
+		border: 0;
+	}
+	.line{
+		display: block;
+		height: 4px;
+		width: auto;
+		background: var(--dark);
+	}
+}
+
+@media (max-width: 500px) {
+	/* everything will be for width of 500 or less */
+
+	/* changes formatting of template area */
+	.section1 {
+		grid-template-areas: 
+			'showcase'
+			'top-box-a'
+			'top-box-b';
+	}
+	/* resizes heading */
+	h1 {
+		font-size: 2.5rem;
+	}
