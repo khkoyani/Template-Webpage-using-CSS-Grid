@@ -1,0 +1,23 @@
+/* Css variables */
+:root {
+	--primary:  #ddd;
+	--dark: #333;
+	--light: #fff;
+	--shadow:  0 1px 5px rgba(104, 104, 104, .8);
+}
+
+html {
+	box-sizing:  border-box;
+	/* do the box-sizing =borderbox for all elements. ALWAYS */
+	font-family: Arial, Helvetica, sans-serif;
+	color: var(--dark);
+	background: #ccc;
+	margin: 30px, 50px;
+	line-height: 1.4;
+		/* usually keep it as 1.4 */
+}
+
+body {
+
+
+}
